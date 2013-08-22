@@ -1,0 +1,19 @@
+We have few task that should be resolved in this project:
+
+1. Generate secret
+Secret - is some phrase with one or more words that does not contains any duplicates.
+Application should inform user if there are some duplicated words in phrase
+
+2. Store secret
+Each time when user starts application his secret should be shown.
+
+3. Add functionality to validate answers.
+Answer - is some phrase that contains one word from secret.
+User will be informed if answer don't commit requirements, e.g. answer contains more then one secret word or there are not intersection with secret.
+In this task we want to show number of used word is secret phrase.
+
+
+
+First of all we'll create application for Russian users.
+This application will work in windows OS using .NET 4.0+ environment
+We don't use any network connection at first time but we plan to check secret popularity with Bing or Google service in future.
